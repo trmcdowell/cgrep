@@ -114,7 +114,7 @@ void processLines(char *pattern) {
         if (LINE_NUMS) {
           printf("%lu:%s", lineNum, lineCopy);
         } else {
-          printf("%s", line);
+          printf("%s", lineCopy);
         }
       }
     }
