@@ -1,0 +1,3 @@
+## Authors
+
+* **Tom McDowell**
