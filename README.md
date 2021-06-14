@@ -1,4 +1,4 @@
-igrep.c is a command line tool built to imitate grep without regular expression capability. Behavior can be modified with the use of the following
+crep.c is a command line tool built to imitate grep without regular expression capability. Behavior can be modified with the use of the following
 flags/options:
 
 -i: Ignore case 
@@ -7,14 +7,14 @@ flags/options:
 
 Compile:
 ```
-$ gcc -o igrep igrep.c
+$ gcc -o crep crep.c
 ```
 
 Execute:
 ```
-$ ./igrep [OPTION]... FILE
+$ ./crep [OPTION]... FILE
 ```
 
 ## Authors
 
-* **Tom McDowell**
+* **Thomas McDowell**
