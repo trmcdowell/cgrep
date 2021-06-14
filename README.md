@@ -1,4 +1,4 @@
-crep.c is a command line tool built to imitate grep without regular expression capability. Behavior can be modified with the use of the following
+cgrep.c is a command line tool built to imitate grep without regular expression capability. Behavior can be modified with the use of the following
 flags/options:
 
 -i: Ignore case <br/>
@@ -7,12 +7,12 @@ flags/options:
 
 Compile:
 ```
-$ gcc -o crep crep.c
+$ gcc -o cgrep cgrep.c
 ```
 
 Execute:
 ```
-$ ./crep [OPTION]... FILE
+$ ./cgrep [OPTION]... FILE
 ```
 
 ## Authors
