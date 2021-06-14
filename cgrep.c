@@ -1,6 +1,6 @@
 // Thomas McDowell
 //
-// crep.c is a command line tool built to imitate grep without regular
+// cgrep.c is a command line tool built to imitate grep without regular
 // expression capability. Behavior can be modified with the use of the following
 // flags: -i: Ignore case -n: Print line numbers -h: Help
 
@@ -28,9 +28,9 @@ int main(int argc, char **argv) {
 
   // Handle flags
   if (HELP) {
-    printf("Usage: ./crep [OPTION]... PATTERN FILE\n");
+    printf("Usage: ./cgrep [OPTION]... PATTERN FILE\n");
     printf("Search for PATTERN in FILE\n");
-    printf("Example: ./crep -n \"whale\" <MobyDick.txt\n\n");
+    printf("Example: ./cgrep -n \"whale\" <MobyDick.txt\n\n");
     printf("Options:\n");
     printf("    -i    PATTERN ignores case\n");
     printf("    -n    print line number with output lines\n");
